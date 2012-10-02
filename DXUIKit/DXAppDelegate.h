@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class DXViewController;
+@class DXMainTableViewController;
 
 @interface DXAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) DXViewController *viewController;
 
 @end

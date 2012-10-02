@@ -16,8 +16,19 @@
 		BC6A0E57161A2130001EB5F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6A0E56161A2130001EB5F0 /* Default.png */; };
 		BC6A0E59161A2130001EB5F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6A0E58161A2130001EB5F0 /* Default@2x.png */; };
 		BC6A0E5B161A2130001EB5F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6A0E5A161A2130001EB5F0 /* Default-568h@2x.png */; };
-		BC6A0E5E161A2130001EB5F0 /* DXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E5D161A2130001EB5F0 /* DXViewController.m */; };
-		BC6A0E61161A2130001EB5F0 /* DXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6A0E5F161A2130001EB5F0 /* DXViewController.xib */; };
+		BC6A0E85161A21BC001EB5F0 /* DXActionButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E6C161A21BC001EB5F0 /* DXActionButtonItem.m */; };
+		BC6A0E86161A21BC001EB5F0 /* DXBlockActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E6F161A21BC001EB5F0 /* DXBlockActionHandler.m */; };
+		BC6A0E87161A21BC001EB5F0 /* UIActionSheet+BlockActions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E73161A21BC001EB5F0 /* UIActionSheet+BlockActions.m */; };
+		BC6A0E88161A21BC001EB5F0 /* UIAlertView+BlockActions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E76161A21BC001EB5F0 /* UIAlertView+BlockActions.m */; };
+		BC6A0E89161A21BC001EB5F0 /* UIControl+BlockActions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E79161A21BC001EB5F0 /* UIControl+BlockActions.m */; };
+		BC6A0E8A161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E7C161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.m */; };
+		BC6A0E8B161A21BC001EB5F0 /* DXSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A0E81161A21BC001EB5F0 /* DXSwitch.m */; };
+		BC7D2691161A22F50024EB28 /* DXMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D268F161A22F50024EB28 /* DXMainTableViewController.m */; };
+		BC7D2692161A22F50024EB28 /* DXMainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7D2690161A22F50024EB28 /* DXMainTableViewController.xib */; };
+		BC7D269C161A2EBB0024EB28 /* DXDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D269B161A2EBB0024EB28 /* DXDetailedViewController.m */; };
+		BC8F6268161B787D00A1F361 /* DXBlockActionsDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8F6266161B787D00A1F361 /* DXBlockActionsDetailedViewController.m */; };
+		BC8F6269161B787D00A1F361 /* DXBlockActionsDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8F6267161B787D00A1F361 /* DXBlockActionsDetailedViewController.xib */; };
+		BC8F626B161B795E00A1F361 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8F626A161B795E00A1F361 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +45,33 @@
 		BC6A0E56161A2130001EB5F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BC6A0E58161A2130001EB5F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BC6A0E5A161A2130001EB5F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BC6A0E5C161A2130001EB5F0 /* DXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXViewController.h; sourceTree = "<group>"; };
-		BC6A0E5D161A2130001EB5F0 /* DXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXViewController.m; sourceTree = "<group>"; };
-		BC6A0E60161A2130001EB5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DXViewController.xib; sourceTree = "<group>"; };
+		BC6A0E6B161A21BC001EB5F0 /* DXActionButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXActionButtonItem.h; sourceTree = "<group>"; };
+		BC6A0E6C161A21BC001EB5F0 /* DXActionButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXActionButtonItem.m; sourceTree = "<group>"; };
+		BC6A0E6E161A21BC001EB5F0 /* DXBlockActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXBlockActionHandler.h; sourceTree = "<group>"; };
+		BC6A0E6F161A21BC001EB5F0 /* DXBlockActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXBlockActionHandler.m; sourceTree = "<group>"; };
+		BC6A0E70161A21BC001EB5F0 /* DXBlockActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXBlockActions.h; sourceTree = "<group>"; };
+		BC6A0E72161A21BC001EB5F0 /* UIActionSheet+BlockActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlockActions.h"; sourceTree = "<group>"; };
+		BC6A0E73161A21BC001EB5F0 /* UIActionSheet+BlockActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+BlockActions.m"; sourceTree = "<group>"; };
+		BC6A0E75161A21BC001EB5F0 /* UIAlertView+BlockActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlockActions.h"; sourceTree = "<group>"; };
+		BC6A0E76161A21BC001EB5F0 /* UIAlertView+BlockActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlockActions.m"; sourceTree = "<group>"; };
+		BC6A0E78161A21BC001EB5F0 /* UIControl+BlockActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlockActions.h"; sourceTree = "<group>"; };
+		BC6A0E79161A21BC001EB5F0 /* UIControl+BlockActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlockActions.m"; sourceTree = "<group>"; };
+		BC6A0E7B161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlockActions.h"; sourceTree = "<group>"; };
+		BC6A0E7C161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BlockActions.m"; sourceTree = "<group>"; };
+		BC6A0E7E161A21BC001EB5F0 /* DXControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXControls.h; sourceTree = "<group>"; };
+		BC6A0E80161A21BC001EB5F0 /* DXSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSwitch.h; sourceTree = "<group>"; };
+		BC6A0E81161A21BC001EB5F0 /* DXSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSwitch.m; sourceTree = "<group>"; };
+		BC6A0E84161A21BC001EB5F0 /* DXUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXUIKit.h; sourceTree = "<group>"; };
+		BC7D268E161A22F50024EB28 /* DXMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXMainTableViewController.h; sourceTree = "<group>"; };
+		BC7D268F161A22F50024EB28 /* DXMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXMainTableViewController.m; sourceTree = "<group>"; };
+		BC7D2690161A22F50024EB28 /* DXMainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXMainTableViewController.xib; sourceTree = "<group>"; };
+		BC7D269A161A2EBB0024EB28 /* DXDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDetailedViewController.h; sourceTree = "<group>"; };
+		BC7D269B161A2EBB0024EB28 /* DXDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDetailedViewController.m; sourceTree = "<group>"; };
+		BC8F6260161B780F00A1F361 /* DetailedViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedViewControllers.h; sourceTree = "<group>"; };
+		BC8F6265161B787D00A1F361 /* DXBlockActionsDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXBlockActionsDetailedViewController.h; sourceTree = "<group>"; };
+		BC8F6266161B787D00A1F361 /* DXBlockActionsDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXBlockActionsDetailedViewController.m; sourceTree = "<group>"; };
+		BC8F6267161B787D00A1F361 /* DXBlockActionsDetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXBlockActionsDetailedViewController.xib; sourceTree = "<group>"; };
+		BC8F626A161B795E00A1F361 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8F626B161B795E00A1F361 /* QuartzCore.framework in Frameworks */,
 				BC6A0E45161A2130001EB5F0 /* UIKit.framework in Frameworks */,
 				BC6A0E47161A2130001EB5F0 /* Foundation.framework in Frameworks */,
 				BC6A0E49161A2130001EB5F0 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +109,7 @@
 		BC6A0E43161A2130001EB5F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC8F626A161B795E00A1F361 /* QuartzCore.framework */,
 				BC6A0E44161A2130001EB5F0 /* UIKit.framework */,
 				BC6A0E46161A2130001EB5F0 /* Foundation.framework */,
 				BC6A0E48161A2130001EB5F0 /* CoreGraphics.framework */,
@@ -83,11 +120,10 @@
 		BC6A0E4A161A2130001EB5F0 /* DXUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				BC7D2683161A223C0024EB28 /* Controllers */,
+				BC6A0E67161A21BC001EB5F0 /* Classes */,
 				BC6A0E53161A2130001EB5F0 /* DXAppDelegate.h */,
 				BC6A0E54161A2130001EB5F0 /* DXAppDelegate.m */,
-				BC6A0E5C161A2130001EB5F0 /* DXViewController.h */,
-				BC6A0E5D161A2130001EB5F0 /* DXViewController.m */,
-				BC6A0E5F161A2130001EB5F0 /* DXViewController.xib */,
 				BC6A0E4B161A2130001EB5F0 /* Supporting Files */,
 			);
 			path = DXUIKit;
@@ -105,6 +141,166 @@
 				BC6A0E5A161A2130001EB5F0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6A0E67161A21BC001EB5F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E69161A21BC001EB5F0 /* DXBlockActions */,
+				BC6A0E7D161A21BC001EB5F0 /* DXControls */,
+				BC6A0E82161A21BC001EB5F0 /* DXUIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC6A0E69161A21BC001EB5F0 /* DXBlockActions */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E6A161A21BC001EB5F0 /* DXActionButtonItem */,
+				BC6A0E6D161A21BC001EB5F0 /* DXBlockActionHandler */,
+				BC6A0E70161A21BC001EB5F0 /* DXBlockActions.h */,
+				BC6A0E71161A21BC001EB5F0 /* UIActionSheet+BlockActions */,
+				BC6A0E74161A21BC001EB5F0 /* UIAlertView+BlockActions */,
+				BC6A0E77161A21BC001EB5F0 /* UIControl+BlockActions */,
+				BC6A0E7A161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions */,
+			);
+			path = DXBlockActions;
+			sourceTree = "<group>";
+		};
+		BC6A0E6A161A21BC001EB5F0 /* DXActionButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E6B161A21BC001EB5F0 /* DXActionButtonItem.h */,
+				BC6A0E6C161A21BC001EB5F0 /* DXActionButtonItem.m */,
+			);
+			path = DXActionButtonItem;
+			sourceTree = "<group>";
+		};
+		BC6A0E6D161A21BC001EB5F0 /* DXBlockActionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E6E161A21BC001EB5F0 /* DXBlockActionHandler.h */,
+				BC6A0E6F161A21BC001EB5F0 /* DXBlockActionHandler.m */,
+			);
+			path = DXBlockActionHandler;
+			sourceTree = "<group>";
+		};
+		BC6A0E71161A21BC001EB5F0 /* UIActionSheet+BlockActions */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E72161A21BC001EB5F0 /* UIActionSheet+BlockActions.h */,
+				BC6A0E73161A21BC001EB5F0 /* UIActionSheet+BlockActions.m */,
+			);
+			path = "UIActionSheet+BlockActions";
+			sourceTree = "<group>";
+		};
+		BC6A0E74161A21BC001EB5F0 /* UIAlertView+BlockActions */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E75161A21BC001EB5F0 /* UIAlertView+BlockActions.h */,
+				BC6A0E76161A21BC001EB5F0 /* UIAlertView+BlockActions.m */,
+			);
+			path = "UIAlertView+BlockActions";
+			sourceTree = "<group>";
+		};
+		BC6A0E77161A21BC001EB5F0 /* UIControl+BlockActions */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E78161A21BC001EB5F0 /* UIControl+BlockActions.h */,
+				BC6A0E79161A21BC001EB5F0 /* UIControl+BlockActions.m */,
+			);
+			path = "UIControl+BlockActions";
+			sourceTree = "<group>";
+		};
+		BC6A0E7A161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E7B161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.h */,
+				BC6A0E7C161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.m */,
+			);
+			path = "UIGestureRecognizer+BlockActions";
+			sourceTree = "<group>";
+		};
+		BC6A0E7D161A21BC001EB5F0 /* DXControls */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E7E161A21BC001EB5F0 /* DXControls.h */,
+				BC6A0E7F161A21BC001EB5F0 /* DXSwitch */,
+			);
+			path = DXControls;
+			sourceTree = "<group>";
+		};
+		BC6A0E7F161A21BC001EB5F0 /* DXSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E80161A21BC001EB5F0 /* DXSwitch.h */,
+				BC6A0E81161A21BC001EB5F0 /* DXSwitch.m */,
+			);
+			path = DXSwitch;
+			sourceTree = "<group>";
+		};
+		BC6A0E82161A21BC001EB5F0 /* DXUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0E84161A21BC001EB5F0 /* DXUIKit.h */,
+			);
+			path = DXUIKit;
+			sourceTree = "<group>";
+		};
+		BC7D2683161A223C0024EB28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D2697161A2EBB0024EB28 /* DetailedViewControllers */,
+				BC7D268A161A22B50024EB28 /* DXMainTableViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC7D268A161A22B50024EB28 /* DXMainTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D268E161A22F50024EB28 /* DXMainTableViewController.h */,
+				BC7D268F161A22F50024EB28 /* DXMainTableViewController.m */,
+				BC7D2690161A22F50024EB28 /* DXMainTableViewController.xib */,
+			);
+			path = DXMainTableViewController;
+			sourceTree = "<group>";
+		};
+		BC7D2697161A2EBB0024EB28 /* DetailedViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC8F6264161B786800A1F361 /* DXBlockActionsDetailedViewController */,
+				BC7D2698161A2EBB0024EB28 /* Base */,
+			);
+			path = DetailedViewControllers;
+			sourceTree = "<group>";
+		};
+		BC7D2698161A2EBB0024EB28 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D2699161A2EBB0024EB28 /* DXDetailedViewController */,
+				BC8F6260161B780F00A1F361 /* DetailedViewControllers.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BC7D2699161A2EBB0024EB28 /* DXDetailedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D269A161A2EBB0024EB28 /* DXDetailedViewController.h */,
+				BC7D269B161A2EBB0024EB28 /* DXDetailedViewController.m */,
+			);
+			path = DXDetailedViewController;
+			sourceTree = "<group>";
+		};
+		BC8F6264161B786800A1F361 /* DXBlockActionsDetailedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC8F6265161B787D00A1F361 /* DXBlockActionsDetailedViewController.h */,
+				BC8F6266161B787D00A1F361 /* DXBlockActionsDetailedViewController.m */,
+				BC8F6267161B787D00A1F361 /* DXBlockActionsDetailedViewController.xib */,
+			);
+			path = DXBlockActionsDetailedViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +359,8 @@
 				BC6A0E57161A2130001EB5F0 /* Default.png in Resources */,
 				BC6A0E59161A2130001EB5F0 /* Default@2x.png in Resources */,
 				BC6A0E5B161A2130001EB5F0 /* Default-568h@2x.png in Resources */,
-				BC6A0E61161A2130001EB5F0 /* DXViewController.xib in Resources */,
+				BC7D2692161A22F50024EB28 /* DXMainTableViewController.xib in Resources */,
+				BC8F6269161B787D00A1F361 /* DXBlockActionsDetailedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +373,16 @@
 			files = (
 				BC6A0E51161A2130001EB5F0 /* main.m in Sources */,
 				BC6A0E55161A2130001EB5F0 /* DXAppDelegate.m in Sources */,
-				BC6A0E5E161A2130001EB5F0 /* DXViewController.m in Sources */,
+				BC6A0E85161A21BC001EB5F0 /* DXActionButtonItem.m in Sources */,
+				BC6A0E86161A21BC001EB5F0 /* DXBlockActionHandler.m in Sources */,
+				BC6A0E87161A21BC001EB5F0 /* UIActionSheet+BlockActions.m in Sources */,
+				BC6A0E88161A21BC001EB5F0 /* UIAlertView+BlockActions.m in Sources */,
+				BC6A0E89161A21BC001EB5F0 /* UIControl+BlockActions.m in Sources */,
+				BC6A0E8A161A21BC001EB5F0 /* UIGestureRecognizer+BlockActions.m in Sources */,
+				BC6A0E8B161A21BC001EB5F0 /* DXSwitch.m in Sources */,
+				BC7D2691161A22F50024EB28 /* DXMainTableViewController.m in Sources */,
+				BC7D269C161A2EBB0024EB28 /* DXDetailedViewController.m in Sources */,
+				BC8F6268161B787D00A1F361 /* DXBlockActionsDetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +395,6 @@
 				BC6A0E4E161A2130001EB5F0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BC6A0E5F161A2130001EB5F0 /* DXViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC6A0E60161A2130001EB5F0 /* en */,
-			);
-			name = DXViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -257,6 +455,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DXUIKit/DXUIKit-Prefix.pch";
 				INFOPLIST_FILE = "DXUIKit/DXUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +467,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DXUIKit/DXUIKit-Prefix.pch";
 				INFOPLIST_FILE = "DXUIKit/DXUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,6 +492,7 @@
 				BC6A0E66161A2130001EB5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

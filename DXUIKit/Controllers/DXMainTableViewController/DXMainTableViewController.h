@@ -1,5 +1,5 @@
 //
-//  DXViewController.h
+//  DXMainTableViewController.h
 //  DXUIKit
 //
 //  Created by Max Mashkov on 10/1/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DXViewController : UIViewController
+@interface DXMainTableViewController : UITableViewController
 
 @end
