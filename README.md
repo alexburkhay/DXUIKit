@@ -41,7 +41,6 @@ Then in your Podfile add this line:
 	                                                                  action:^{
 	                                                                      [self updateHUDControls];
 	                                                                      [[VideoRecorder shared] stopRecordingWithoutSaving];
-	                                                                      NSLog(@"deleted short video");
 	                                                                  }];
             
 	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Recorded video is too short"
