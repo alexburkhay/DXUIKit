@@ -58,6 +58,8 @@
     NSMutableArray *buttonsArray = objc_getAssociatedObject(self, kBlockActionHandlersArrayKey);
     
 	[buttonsArray addObject:item];
+	
+	[self addButtonWithTitle:item.title];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
