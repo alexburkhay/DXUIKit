@@ -22,9 +22,9 @@
     return YES;
 }
 
-- (NSString*)tokenByReplacingAngleBracketsFromDeviceToken:(NSString *)deviceToken
+- (NSString*)tokenByReplacingAngleBracketsFromDeviceTokenData:(NSData *)deviceToken
 {
-    NSString *token = deviceToken.copy;
+    NSString *token = [NSString stringWithFormat:@"%@", deviceToken];
     token = [token stringByReplacingOccurrencesOfString:@"<" withString:@""];
     token = [token stringByReplacingOccurrencesOfString:@">" withString:@""];
     
